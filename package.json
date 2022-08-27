@@ -24,6 +24,7 @@
     "prettier": "prettier --write ./src",
     "lint": "eslint --fix ./src/*.{tsx,ts}",
     "lint:fix": "eslint --fix ./src/*.{tsx,ts}",
+    "semantic-release": "semantic-release",
     "prepare": "husky install"
   },
   "browserslist": {
@@ -41,12 +42,15 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.1",
     "@commitlint/config-conventional": "^17.1.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "sass": "^1.54.5",
+    "semantic-release": "^19.0.5",
     "ts-node": "^10.9.1"
   }
 }
