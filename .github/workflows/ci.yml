@@ -33,6 +33,7 @@ jobs:
         with:
           node-version: 16
           cache: 'yarn'
+      - run: npm set-script prepare ""
       - run: yarn install
       - run: yarn run build
       - run: cp "package.json" "./build/package.json"
@@ -42,6 +43,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: cp "./build/package.json" "package.json"
+      - run: npm set-script prepare "husky install"
       - run: |
           cp "./build/package.json" "package.json"
           git config user.name "${{ github.event.pusher.name }}"
