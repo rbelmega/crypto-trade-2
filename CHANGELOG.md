@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/rbelmega/crypto-trade-2/compare/v1.0.0...v1.0.1) (2022-08-27)
+
+
+### Bug Fixes
+
+* **jira-N:** remove private property ([c089cb2](https://github.com/rbelmega/crypto-trade-2/commit/c089cb20cb708012400fbc32d7cfab974c476ab5))
+* **jira-N:** remove private property ([452625b](https://github.com/rbelmega/crypto-trade-2/commit/452625bc0b52222e12f7db5420f12ecf98891e8f))
+* **jira-N:** set publish config ([89508ae](https://github.com/rbelmega/crypto-trade-2/commit/89508ae9d105ca5beb5b15b9cf586cb16e07cb51))
+
 # 1.0.0 (2022-08-27)
 
 
