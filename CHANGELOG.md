@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/rbelmega/crypto-trade-2/compare/v1.0.1...v1.0.2) (2022-08-27)
+
+
+### Bug Fixes
+
+* **jira-N:** set publish config ([3559d2b](https://github.com/rbelmega/crypto-trade-2/commit/3559d2badd620c3d4fcbc49f4dbafb7334208a55))
+
 ## [1.0.1](https://github.com/rbelmega/crypto-trade-2/compare/v1.0.0...v1.0.1) (2022-08-27)
 
 
