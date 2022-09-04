@@ -1,25 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { StyledEngineProvider, ThemeProvider } from '@mui/material/styles';
+import { Box, createTheme } from '@mui/material';
+
+import DataGrid from './components/Table';
 import './App.css';
+import About from './components/About';
 
 function App() {
+	const darkTheme = createTheme({
+		palette: {
+			mode: 'dark',
+		},
+	});
 	return (
-		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.tsx</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React _121
-				</a>
-			</header>
-		</div>
+		<StyledEngineProvider injectFirst>
+			<ThemeProvider theme={darkTheme}>
+				<BrowserRouter>
+					<>
+						<Box sx={{ width: 400, color: '#c2c2c2' }}>
+							<Link to="/" className="link">
+								Home
+							</Link>
+							|
+							<Link to="about" className="link">
+								About
+							</Link>
+						</Box>
+						<div className="App-header">
+							<Routes>
+								<Route path="/" element={<DataGrid />} />
+								<Route path="/about" element={<About />} />
+							</Routes>
+						</div>
+					</>
+				</BrowserRouter>
+			</ThemeProvider>
+		</StyledEngineProvider>
 	);
 }
 
