@@ -5,9 +5,9 @@
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
         ["@semantic-release/npm", { "pkgRoot": "./build/" }],
+        "@semantic-release/git",
         ["@semantic-release/github", {
             "assets": [{ "path":"build.zip", "label":"${nextRelease.gitTag}.zip" }]
         }],
-        "@semantic-release/git"
     ]
 }
