@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/rbelmega/crypto-trade-2/compare/v1.12.0...v1.13.0) (2022-09-04)
+
+
+### Features
+
+* **jira-N:** s3 cleanup ([bf947dc](https://github.com/rbelmega/crypto-trade-2/commit/bf947dcbc1c4b98b89f4e3bf143482bcfd68c318))
+
 # [1.12.0](https://github.com/rbelmega/crypto-trade-2/compare/v1.11.0...v1.12.0) (2022-09-04)
 
 
