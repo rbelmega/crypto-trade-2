@@ -1,3 +1,11 @@
+# [1.15.0](https://github.com/rbelmega/crypto-trade-2/compare/v1.14.0...v1.15.0) (2022-09-04)
+
+
+### Features
+
+* **jira-N:** application ([9746526](https://github.com/rbelmega/crypto-trade-2/commit/9746526cb89697d51fe619cc70b6868e9efd2fab))
+* **jira-N:** application ([c3ebc42](https://github.com/rbelmega/crypto-trade-2/commit/c3ebc42e17b3db07d11a30c8ac3f272499d756f7))
+
 # [1.14.0](https://github.com/rbelmega/crypto-trade-2/compare/v1.13.0...v1.14.0) (2022-09-04)
 
 
