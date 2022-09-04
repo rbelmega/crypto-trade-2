@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/rbelmega/crypto-trade-2/compare/v1.0.2...v1.0.3) (2022-09-04)
+
+
+### Bug Fixes
+
+* **jira-N:** change semantic config ([53a8a89](https://github.com/rbelmega/crypto-trade-2/commit/53a8a89b5123f88353819f95ced3b2616691e0d8))
+
 ## [1.0.2](https://github.com/rbelmega/crypto-trade-2/compare/v1.0.1...v1.0.2) (2022-08-27)
 
 
