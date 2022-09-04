@@ -26,13 +26,16 @@ jobs:
 
       - run: tar -xvzf rbelmega-crypto-trade-2-${{ github.event.inputs.tag }}.tgz
 
-      - name: Remove from S3
-        uses: vitorsgomes/s3-rm-action@master
+      - name: Deploying to S3
+        uses: reggionick/s3-deploy@v3
         with:
-          args: --recursive
-        env:
-          AWS_S3_BUCKET: ${{ secrets.S3_BUCKET }}
-          AWS_REGION: ${{ secrets.S3_BUCKET_REGION }}
+          folder: package/static
+          bucket: ${{ secrets.S3_BUCKET }}
+          bucket-region: ${{ secrets.S3_BUCKET_REGION }}
+          private: true
+          no-cache: true
+          delete-removed: true
+
 
       - name: Deploying to S3
         uses: reggionick/s3-deploy@v3
@@ -42,3 +45,4 @@ jobs:
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
           private: true
           no-cache: true
+          delete-removed: true
