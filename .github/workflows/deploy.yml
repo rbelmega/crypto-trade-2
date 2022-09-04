@@ -24,7 +24,7 @@ jobs:
       - name: Unzipping
         uses: montudor/action-zip@v1
         with:
-          args: unzip -qq rbelmega-crypto-trade-2-{{ github.event.inputs.tag }}.tgz -d build
+          args: unzip -qq rbelmega-crypto-trade-2-${{ github.event.inputs.tag }}.tgz -d build
 
       - name: Deploying to S3
         uses: reggionick/s3-deploy@v3
