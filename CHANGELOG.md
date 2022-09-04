@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/rbelmega/crypto-trade-2/compare/v1.13.0...v1.14.0) (2022-09-04)
+
+
+### Features
+
+* **jira-N:** invalidation ([b1640af](https://github.com/rbelmega/crypto-trade-2/commit/b1640af6a959e04951b08ff1134874a886a325f4))
+
 # [1.13.0](https://github.com/rbelmega/crypto-trade-2/compare/v1.12.0...v1.13.0) (2022-09-04)
 
 
