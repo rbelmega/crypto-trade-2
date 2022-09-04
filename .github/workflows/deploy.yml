@@ -21,15 +21,12 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Unzipping
-        uses: montudor/action-zip@v1
-        with:
-          args: unzip -qq rbelmega-crypto-trade-2-${{ github.event.inputs.tag }}.tgz -d build
+      - run: tar -xvzf rbelmega-crypto-trade-2-${{ github.event.inputs.tag }}.tgz
 
       - name: Deploying to S3
         uses: reggionick/s3-deploy@v3
         with:
-          folder: build
+          folder: package
           bucket: ${{ secrets.S3_BUCKET }}
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
           private: true
