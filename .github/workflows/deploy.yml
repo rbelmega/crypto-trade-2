@@ -27,10 +27,9 @@ jobs:
       - run: tar -xvzf rbelmega-crypto-trade-2-${{ github.event.inputs.tag }}.tgz
 
       - name: Deploying to S3
-        uses: reggionick/s3-deploy@v3
+        uses: reggionick/s3-deploy@v3.1.1
         with:
           folder: package
           bucket: ${{ secrets.S3_BUCKET }}
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
           private: true
-          no-cache: true
