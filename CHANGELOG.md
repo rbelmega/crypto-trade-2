@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/rbelmega/crypto-trade-2/compare/v1.10.2...v1.10.3) (2022-09-04)
+
+
+### Bug Fixes
+
+* **jira-N:** link name ([3921087](https://github.com/rbelmega/crypto-trade-2/commit/39210876801cadd4692f5ba54bcfe3c11c507bc8))
+
 ## [1.10.2](https://github.com/rbelmega/crypto-trade-2/compare/v1.10.1...v1.10.2) (2022-09-04)
 
 
