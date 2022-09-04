@@ -13,6 +13,9 @@ jobs:
     
     steps:
       - name: Use Node.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: actions/setup-node@v3
         with:
           always-auth: true
