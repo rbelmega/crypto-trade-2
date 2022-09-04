@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/rbelmega/crypto-trade-2/compare/v1.15.0...v1.16.0) (2022-09-04)
+
+
+### Features
+
+* **jira-N:** ws support ([018e4d7](https://github.com/rbelmega/crypto-trade-2/commit/018e4d74f852f9c695b83164cf3c2d38b4226167))
+
 # [1.15.0](https://github.com/rbelmega/crypto-trade-2/compare/v1.14.0...v1.15.0) (2022-09-04)
 
 
